@@ -75,6 +75,10 @@ html, body {
     background-size: 60%;
 }
 
+.back:hover {
+    background-color: #a8a6a6;
+}
+
 .flip {
     transform: rotateY(180deg);
 }
