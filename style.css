@@ -44,13 +44,14 @@ html, body {
 
 .card:hover .back {
     /* background-color: #b3b3b3; */
-    background-color: #dfdede;
-
+    /* background-color: #dfdede; */
+    filter: brightness(1.05);
 }
 
 .card:hover .front {
     /* background-color: rgb(13, 158, 216); */
-    background-color: rgb(15, 181, 247);
+    /* background-color: rgb(15, 181, 247); */
+    filter: brightness(1.05);
 }
 
 .face {
