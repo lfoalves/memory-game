@@ -42,6 +42,17 @@ html, body {
     position: relative;
 }
 
+.card:hover .back {
+    /* background-color: #b3b3b3; */
+    background-color: #dfdede;
+
+}
+
+.card:hover .front {
+    /* background-color: rgb(13, 158, 216); */
+    background-color: rgb(15, 181, 247);
+}
+
 .face {
     width: 150px;
     height: 150px;
@@ -58,9 +69,9 @@ html, body {
     position: absolute;
 }
 
-.face:hover {
+/* .face:hover {
     outline: 2px dashed red;
-}
+} */
 
 .front {
     background-color: rgb(13, 169, 231);
@@ -73,10 +84,6 @@ html, body {
     /* background: #999 url('https://img.icons8.com/emoji/344/wrapped-gift.png') no-repeat center; */
     background: #cecece url('https://img.icons8.com/emoji/344/nazar-amulet.png') no-repeat center;
     background-size: 60%;
-}
-
-.back:hover {
-    background-color: #a8a6a6;
 }
 
 .flip {
